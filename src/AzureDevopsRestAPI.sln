@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevopsRestAPI", "AzureDevopsRestAPI\AzureDevopsRestAPI.csproj", "{8042D830-88FA-4A78-AAE1-63F0F4FCDD03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevopsRestApi.Library", "AzureDevopsRestApi.Library\AzureDevopsRestApi.Library.csproj", "{7E401EAF-50B4-4EBE-8E54-81403BA59845}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8042D830-88FA-4A78-AAE1-63F0F4FCDD03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8042D830-88FA-4A78-AAE1-63F0F4FCDD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8042D830-88FA-4A78-AAE1-63F0F4FCDD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8042D830-88FA-4A78-AAE1-63F0F4FCDD03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E401EAF-50B4-4EBE-8E54-81403BA59845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E401EAF-50B4-4EBE-8E54-81403BA59845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E401EAF-50B4-4EBE-8E54-81403BA59845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E401EAF-50B4-4EBE-8E54-81403BA59845}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEB83B2D-D873-4257-8B11-D2A1992DDE84}
+	EndGlobalSection
+EndGlobal
