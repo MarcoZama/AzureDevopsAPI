@@ -26,7 +26,7 @@ try
                 System.Text.ASCIIEncoding.ASCII.GetBytes(
                     string.Format("{0}:{1}", "", personalaccesstoken))));
 
-        var workitems = await devops.GetBacklogWorkItemsAsync(organization, project, team);
+        var workitems = await devops.GetWorkItemsByTypeAsync(organization, project, team, "Task");
 
        
     }
