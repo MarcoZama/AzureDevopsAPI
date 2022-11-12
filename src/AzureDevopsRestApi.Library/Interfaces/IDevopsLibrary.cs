@@ -11,7 +11,6 @@ namespace AzureDevopsRestApi.Library.Interfaces
         Task<string> GetProjectsAsync(string organization);
         Task<string> GetWorkItemByIdAsync(string organization, int workitemId);
         Task<string> GetWorkItemsAsync(string organization);
-        Task<string> GetWorkItemsByTypeAsync(string organization, string project, string type);       
-        Task<string> GetBacklogWorkItemsAsync(string organization, string project, string team);
+        Task<string> GetWorkItemsByTypeAsync(string organization, string project, string team, string type);
     }
 }
